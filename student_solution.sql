@@ -1,2 +1,3 @@
--- Write a query to select the name and grade
--- of the student with the highest grade.
+-- Write your SQL query below
+-- Example:
+-- SELECT name, department, salary FROM employees WHERE department='IT' AND salary >= 55000;
