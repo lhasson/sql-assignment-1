@@ -1,0 +1,2 @@
+-- Write a query to select the name and grade
+-- of the student with the highest grade.
