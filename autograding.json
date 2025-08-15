@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Check SQL Output",
+      "setup": "sqlite3 test.db < create.sql && sqlite3 test.db < insert.sql",
+      "run": "sqlite3 test.db < student_solution.sql > output.txt && diff output.txt expected.txt",
+      "input": "",
+      "expected_output": "",
+      "comparison": "exact",
+      "timeout": 10
+    }
+  ]
+}
